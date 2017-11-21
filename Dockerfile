@@ -1,6 +1,6 @@
 ARG VERSION
 
-FROM hub.appranix.net/onprem/director:$VERSION
+FROM $VERSION
 
 WORKDIR /home/prana/
 
